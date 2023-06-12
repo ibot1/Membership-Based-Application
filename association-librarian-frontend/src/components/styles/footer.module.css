@@ -1,0 +1,159 @@
+.container {
+    height: 50vh;
+    background-color: #000000;
+}
+
+.section1 {
+    width: fit-content;
+    display: inline-block;
+}
+
+.logoTitle {
+    color: #ffffff;
+    margin-top: 6vh;
+    margin-left: 6vh;
+    width: fit-content;
+}
+
+.logoTitle:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.logo {
+    height: 13.5vh;
+    width: 6.5vw;
+}
+
+.title {
+    display: inline-block;
+    font-size: 3.5vh;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 1vw;
+    top: -3vh;
+    width: 28vw;
+}
+
+.line {
+    margin-left: 2.9vw;
+    margin-top: 0.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    color: #ffffff;
+}
+
+.line div {
+    display: inline-block;
+}
+
+
+.line svg {
+    position: relative;
+    top: 0.2vh;
+}
+
+.rightLine1 {
+    margin-left: 10vh;
+}
+
+.rightLine1:hover {
+    cursor: pointer;
+    color: #ffff00;
+}
+
+.rightLine2 {
+    margin-left: 2.2vh;
+}
+
+.rightLine2:hover {
+    cursor: pointer;
+    color: #ffff00;
+}
+
+.rightLine3 {
+    margin-left: 19.6vh;
+}
+
+.rightLine3:hover {
+    cursor: pointer;
+    color: #ffff00;
+}
+
+.section2 {
+    width: fit-content;
+    position: relative;
+    left: 3vw;
+    top: 9vh;
+    display: inline-block;
+    padding-left: 3vw;
+    border-left: thin solid white;
+}
+
+.row1 {
+    padding-bottom: 2vh;
+    border-bottom: thin solid #ffffff;
+}
+
+.row1 div {
+    display: inline-block;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    margin-right: 5vw;
+    padding: 1vw;
+}
+
+.row1 div:hover {
+    cursor: pointer;
+    color: #ffff00;
+}
+
+.contact {
+    border: medium solid #ffffff;
+}
+
+.contact:hover {
+    border-color: #ffff00;
+    color: #ffff00;
+}
+
+.row2 {
+    margin-top: 5vh;
+    color: #ffffff;
+    padding-bottom: 5vh;
+    border-bottom: thin solid #ffffff;
+}
+
+.row2 div {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    position: relative;
+    top: -1vh;
+    margin-right: 2vw;
+}
+
+.row2 svg:hover {
+    cursor: pointer;
+    color: #ffff00;
+}
+
+.row3 {
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+}
+
+.row3 a {
+    border-bottom: thin solid #ffffff;
+}
+
+.row3 a:hover {
+    border-bottom: thin solid #ffff00;
+    color: #ffff00;
+}
