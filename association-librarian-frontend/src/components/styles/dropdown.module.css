@@ -1,0 +1,29 @@
+.contentHolder {
+    width: 13vw;
+    text-align: center;
+    background-color: #90ee90;
+}
+
+.contentHolder a {
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 0.9vw;
+    font-family: futura-pt, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    border-bottom: thin solid #000000;
+}
+
+.firstContent {
+    border-top-left-radius: 0.4vw;
+    border-top-right-radius: 0.4vw;
+}
+
+.lastContent {
+    border-bottom-left-radius: 0.4vw;
+    border-bottom-right-radius: 0.4vw;
+}
+
+.contentHolder a:hover {
+    cursor: pointer;
+    background-color: #ffff00;
+}

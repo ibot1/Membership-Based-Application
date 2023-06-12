@@ -1,0 +1,56 @@
+.infoCard {
+    display: inline-block;
+    position: relative;
+    border: thin solid black;
+    width: 40em;
+    height: 30em;
+    left: 29%;
+    top: 3em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.infoCard div {
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+select {
+    position: absolute;
+    left: 17em;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+input {
+    position: absolute;
+    left: 17em;
+}
+
+.buttons {
+    position: relative;
+    left: 30%;
+    top: 5%;
+}
+
+.buttons div {
+    display: inline-block;
+    background-color: #8ef4ff;
+    border: thin solid #82dcd8;
+    padding: 2%;
+}
+
+.buttons div:hover {
+    background-color: #15d88e;
+    cursor: pointer;
+}
+
+.file {
+    position: absolute;
+    left: 25.5em;
+    border: thin solid black;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
