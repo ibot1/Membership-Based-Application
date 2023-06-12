@@ -15,7 +15,7 @@ public class UserService {
 
     public Mono<ServerResponse> createUserProfile(ServerRequest request) {
         return databaseService
-                .createUser(request.bodyToMono(UserProfile.class))
+                .createUser(request.bodyToMono(UserProfile.class))   
                 .flatMap(status -> ServerResponse.status(status).build());
     }
 
